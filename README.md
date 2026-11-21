@@ -9,7 +9,7 @@ Welcome to my portfolio! This repository showcases my practical projects in mach
 ### 1. Insurance Claims Charges Prediction
 * **Description:** A regression project focused on predicting medical insurance charges based on demographic and health-related features (such as age, BMI, smoking status, and region).
 * **Key Steps & Techniques:**
-  * **Data Preprocessing & Cleaning:** Handled duplicates, detected and removed outliers using the IQR method, and encoded categorical variables (`drop_first=True`).
+  * **Data Preprocessing & Cleaning:** Handled duplicates, detected and removed outliers using the IQR method, and encoded categorical variables.
   * **Feature Selection & Scaling:** Applied RFECV (Recursive Feature Elimination with Cross-Validation) and feature standardization.
   * **Advanced Modeling:** Explored Linear Regression, Box-Cox transformation on the target variable to handle skewness, and K-Nearest Neighbors (KNN) Regressor with GridSearchCV.
 * **Evaluation Metrics:** Evaluated models using MAE, MSE, RMSE, MAPE, and $R^2$ score on both training and test sets.
